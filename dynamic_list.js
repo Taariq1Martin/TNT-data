@@ -19,7 +19,7 @@ Proton brings together the adrenaline of fast-paced FPS combat, the fluidity of 
 // Game data (DO NOT MODIFY window.gamesComingSoon)
 window.gamesComingSoon = [
   {
-    isout: true,
+    isout: false,
     title: "ProTon",
     description: protonDescription,
     platforms: ["planned: PC | PS4/5 | Xbox One/Series X|S"],
