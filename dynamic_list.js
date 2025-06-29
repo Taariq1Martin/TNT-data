@@ -1,5 +1,7 @@
-//hero 
+//logo
+window.logoImagePath = 'images/tnt_logo.webp'; // or a link 
 
+//hero 
 window.startImageSrc = 'images/hero-bg.webp';
  
 
@@ -17,7 +19,7 @@ Proton brings together the adrenaline of fast-paced FPS combat, the fluidity of 
 // Game data (DO NOT MODIFY window.gamesComingSoon)
 window.gamesComingSoon = [
   {
-    isout: true,
+    isout: false,
     title: "ProTon",
     description: protonDescription,
     platforms: ["planned: PC | PS4/5 | Xbox One/Series X|S"],
@@ -37,31 +39,6 @@ window.gamesComingSoon = [
     tags: ["parkour","action", "stealth", "run and gun", "parkour", "advanced/futuristic gadgets"],
     features: [ "Single-player & multiplayer modes", "Fluid parkour traversal system",  "Advanced tactical gadgets", "Momentum-driven combat loop",  "Multiple combat styles: stealth or assault",  "No microtransactions",  "Offline and online support",  "Frequent post-launch updates"],
     screenshots: ["images/uncover.webp",],
-    trailerThumb: "images/game_trailer.webp",
-    trailer: null,
-  },
-  
-  {
-    isout: true,
-    title: "ProTon",
-    description: protonDescription,
-    platforms: ["planned: PC | PS4/5 | Xbox One/Series X|S"],
-    image: "https://picsum.photos/1280/720.webp",
-    genre: "Action,Stealth, Parkour",
-    releaseDate: "TBD",
-    status: "Early Access",
-    engine: "Engineered with Unreal Engine 5",
-    price: "$25",
-    storeLinks: {
-      steam: "",
-      epic: "",
-      PlaystationNetwork: "",
-      XboxLive: "",
-    },
-    multiplayer: "yes",
-    tags: ["parkour","action", "stealth", "run and gun", "parkour", "advanced/futuristic gadgets"],
-    features: [ "Single-player & multiplayer modes", "Fluid parkour traversal system",  "Advanced tactical gadgets", "Momentum-driven combat loop",  "Multiple combat styles: stealth or assault",  "No microtransactions",  "Offline and online support",  "Frequent post-launch updates"],
-    screenshots: ["images/uncover.webp","https://picsum.photos/1280/720.webp"],
     trailerThumb: "images/game_trailer.webp",
     trailer: null,
   },
@@ -120,18 +97,7 @@ window.aftermktSectionsData = [
     
 //our team
 window.teamProfiles = [
-  
- { name: "test",
-    title: "Producer",
-    description: "Overseeing production from concept to launch, Taariq ensures timelines are met, goals stay focused, and creative vision is executed with precision and clarity.",
-    image: "https://i.postimg.cc/g2JYv5Ys/IMG-20250626-115104.jpg",
-    links: {
-      facebook: "https://m.facebook.com/taariq.martin.283213/",
-      twitter: "https://x.com/martin_taariq?t=qzseU1HBOvsswCDrTqeFUg&s=09",
-      whatsApp: "https://wa.me/27731927463"
-}},
-  
-  
+
   {
     name: "Taariq Martin",
     title: "Producer",
