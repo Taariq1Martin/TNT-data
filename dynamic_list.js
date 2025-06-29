@@ -2,7 +2,7 @@
 window.logoImagePath = 'images/tnt_logo.webp'; // or a link 
 
 //hero 
-window.startImageSrc = 'images/hero-bg.webp';
+window.startImageSrc = 'https://picsum.photos/1280/720.webp';
  
 
 // Proton description actually used now
