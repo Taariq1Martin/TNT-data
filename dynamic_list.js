@@ -1,3 +1,6 @@
+//email
+window.studioEmail = 'tntmartinstudio@gmail.com'; // You can change this anytime
+
 //logo
 window.logoImagePath = 'images/tnt_logo.webp'; // or a link 
 
