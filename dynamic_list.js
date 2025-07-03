@@ -56,9 +56,9 @@ window.aftermktSectionsData = [
        title: "benefits",
        description: "let's create together",
        content: [
-        "fight"
-        "aim"
-       ]
+        "fight",
+        "aim",
+       ],
       },
       {
         id: "aftermkt-news",
