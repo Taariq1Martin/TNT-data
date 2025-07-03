@@ -23,7 +23,7 @@ Proton brings together the adrenaline of fast-paced FPS combat, the fluidity of 
 window.gamesComingSoon = [
   {
     isout: false,
-    title: "Proton",
+    title: "ProTon",
     description: protonDescription,
     platforms: ["planned: PC | PS4/5 | Xbox One/Series X|S"],
     image: "images/uncover.webp",
@@ -51,17 +51,6 @@ window.gamesComingSoon = [
 
 //news/more 
 window.aftermktSectionsData = [
-      {
-  id: "aftermkt-benefits",
-  title: "Benefits",
-  description: "Let's create together.",
-  content: [
-    "Collaborate with a passionate indie team dedicated to creative freedom and gameplay-first design.",
-    "Gain real experience across multiple disciplines—design, development, art, and sound.",
-    "Be part of a studio that values ownership, transparency, and long-term vision.",
-    "Enjoy a flexible, remote-friendly environment that respects your time and skill."
-  ],
-}
       {
         id: "aftermkt-news",
         title: "News",
