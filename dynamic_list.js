@@ -52,6 +52,15 @@ window.gamesComingSoon = [
 //news/more 
 window.aftermktSectionsData = [
       {
+       id: "aftermkt-benifits",
+       title: "benefits",
+       description: "let's create together",
+       content: [
+        "fight"
+        "aim"
+       ]
+      },
+      {
         id: "aftermkt-news",
         title: "News",
         description: "TNT MARTIN STUDIO steps into the spotlight.",
