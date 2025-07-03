@@ -52,14 +52,16 @@ window.gamesComingSoon = [
 //news/more 
 window.aftermktSectionsData = [
       {
-       id: "aftermkt-benifits",
-       title: "benefits",
-       description: "let's create together",
-       content: [
-        "fight",
-        "aim",
-       ],
-      },
+  id: "aftermkt-benefits",
+  title: "Benefits",
+  description: "Let's create together.",
+  content: [
+    "Collaborate with a passionate indie team dedicated to creative freedom and gameplay-first design.",
+    "Gain real experience across multiple disciplines—design, development, art, and sound.",
+    "Be part of a studio that values ownership, transparency, and long-term vision.",
+    "Enjoy a flexible, remote-friendly environment that respects your time and skill."
+  ],
+}
       {
         id: "aftermkt-news",
         title: "News",
