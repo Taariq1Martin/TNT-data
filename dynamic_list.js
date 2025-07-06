@@ -7,7 +7,6 @@ window.logoImagePath = 'images/tnt_logo.webp'; // or a link
 //hero 
 window.startImageSrc = 'images/hero-bg.webp';
  
-
 // Proton description actually used now
 const protonDescription = `Proton is a high-intensity action game where modern-day realism meets advanced military technology. Step into the role of a highly skilled operative thrust into a mission that quickly spirals into something far larger—and far more personal—than he ever anticipated.<br><br>
 
@@ -31,6 +30,7 @@ window.gamesComingSoon = [
     releaseDate: "TBD",
     status: "Early Access",
     engine: "Engineered with Unreal Engine 5",
+    engineSvg: "images/UE-Icon-2023-White.svg",
     price: "$25",
     storeLinks: {
       steam: "",
@@ -46,57 +46,56 @@ window.gamesComingSoon = [
     trailer: null,
   },
   
-];
-
+]; 
 
 //news/more 
 window.aftermktSectionsData = [
-      {
-        id: "aftermkt-news",
-        title: "News",
-        description: "TNT MARTIN STUDIO steps into the spotlight.",
-        content: [ 
-          "The journey begins. With powerful tools, bold ideas, and a clear vision, we’re building experiences that speak for themselves.",
-          "This is just the beginning — and every update brings us closer to something unforgettable."
-        ]
-      },
-      
-      {
-        id: "aftermkt-dev",
-        title: "Development Updates",
-        description: "Progress never sleeps at TNT MARTIN STUDIO.",
-        content: [
-          "Every day is a step forward. Whether it’s coding, designing, or perfecting gameplay — the grind doesn’t stop.",
-          "We’re shaping our first title, <strong>Proton</strong>, with focus and fire. And soon, the results will speak louder than words."
-        ]
-      },
-
-      {
-        id: "aftermkt-announcements",
-        title: "Announcements",
-        description: "Big news, built to last.",
-        content: [
-          "At TNT MARTIN STUDIO, we’re not chasing noise — we’re creating moments that leave a mark.",
-          "From first looks to final launches, this is where we share what truly matters.",
-          "<strong>Stay tuned.</strong>"
-        ]
-      },
-      
-      {
-        id: "aftermkt-more",
-        title: "More",
-        description: "What we believe in as a studio",
-        content: [
-          "At TNT MARTIN STUDIO, we keep things real:",
-          "<blockquote><strong>If you pay for the item, it's yours. Period.</strong></blockquote>",
-          "No forced online check-ins. No DRM traps. You bought it — you own it.",
-          "<strong>We only draw the line at:",
-          "<ul><li>External software-based cheating</li><li>Piracy</li></ul></strong>",
-          "We build for people who respect the grind and deserve to own what they earn."
-        ]
-      }
-    ];
-    
+  {
+    id: "aftermkt-news",
+    title: "News",
+    description: "TNT MARTIN STUDIO steps into the spotlight.",
+    image: "",
+    content: [ 
+      "The journey begins. With powerful tools, bold ideas, and a clear vision, we’re building experiences that speak for themselves.",
+      "This is just the beginning — and every update brings us closer to something unforgettable."
+    ]
+  },
+  {
+    id: "aftermkt-dev",
+    title: "Development Updates",
+    description: "Progress never sleeps at TNT MARTIN STUDIO.",
+    image: "",
+    content: [
+      "Every day is a step forward. Whether it’s coding, designing, or perfecting gameplay — the grind doesn’t stop.",
+      "We’re shaping our first title, <strong>Proton</strong>, with focus and fire. And soon, the results will speak louder than words."
+    ]
+  },
+  {
+    id: "aftermkt-announcements",
+    title: "Announcements",
+    description: "Big news, built to last.",
+    image: "",
+    content: [
+      "At TNT MARTIN STUDIO, we’re not chasing noise — we’re creating moments that leave a mark.",
+      "From first looks to final launches, this is where we share what truly matters.",
+      "<strong>Stay tuned.</strong>"
+    ]
+  },
+  {
+    id: "aftermkt-more",
+    title: "More",
+    description: "What we believe in as a studio",
+    image: "",
+    content: [
+      "At TNT MARTIN STUDIO, we keep things real:",
+      "<blockquote><strong>If you pay for the item, it's yours. Period.</strong></blockquote>",
+      "No forced online check-ins. No DRM traps. You bought it — you own it.",
+      "<strong>We only draw the line at:",
+      "<ul><li>External software-based cheating</li><li>Piracy</li></ul></strong>",
+      "We build for people who respect the grind and deserve to own what they earn."
+    ]
+  }
+];
     
 //our team
 window.teamProfiles = [
